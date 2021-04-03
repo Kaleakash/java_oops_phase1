@@ -1,2 +1,3 @@
 This is a simple text file 
 This is another messasge written in a file
+another message added...
