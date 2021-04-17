@@ -10,7 +10,7 @@ public class DemoTest {
 		int id = obj.nextInt();		// This method to scan int value 
 		obj.nextLine();			// to hold enter key
 		System.out.println("Enter the name");
-		String name = obj.nextLine();		// This method to scan string value 
+		String name = obj.nextLine();		// This method to scan string value if want to take more than one word 
 		System.out.println("Enter the salary");
 		float salary = obj.nextFloat();		//this method to scan float value;
 		System.out.println("Id is "+id);
