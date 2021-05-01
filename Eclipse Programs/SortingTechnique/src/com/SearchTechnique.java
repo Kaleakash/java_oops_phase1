@@ -1,8 +1,16 @@
 package com;
 
+import java.io.File;
+import java.util.Arrays;
+
 public class SearchTechnique {
 
 	public static int linearSearch(int arr[],int x) {
+		//File ff = new File("Path");
+		//String listOfFile[] = ff.list();
+		//String str = "Ravi";
+		//str.equalsIgnoreCase("ravi");
+		
 		for(int i=0;i<arr.length;i++) {
 			if(arr[i]==x) {
 				return i;
@@ -30,8 +38,9 @@ public class SearchTechnique {
 	}
 	public static void main(String[] args) {
 		int num[]= {3,4,1,6,8,9,2};
-		int n = 10;
+		int n = 2;
 		//int result = linearSearch(num, n);
+		Arrays.sort(num);				// pre-defined sorting 
 		int result = binarySearch(num, 0, num.length-1, n);
 		if(result>0) {
 			System.out.println("Element found in position "+result+" "+"Value is "+n);
